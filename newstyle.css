@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+
+  /* BEGIN (write your solution here) */
+font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  font-family: arial, sans-serif;
+
+  /* END */
+}
+.golova {
+  border: 3px solid whitesmoke;
+  margin-top: 20px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  background-color: whitesmoke;
+}
+
+/* BEGIN (write your solution here) */
+h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* END */
+
+h2 {
+  /* BEGIN (write your solution here) */
+
+  margin-top: 0px;
+  padding-bottom: 30px;
+  font-size: 25px;
+  text-align: center;
+  /* END */
+
+
+}
+
+main {
+  width: 900px;
+  margin: auto;
+}
+
+/* BEGIN (write your solution here) */
+section {
+  margin: 50px 0 50px 0;
+  padding: 0 50px 0 50px;
+}
+section > h2 {
+  padding: 0;
+  text-align: left;
+  border: none;
+}
+section > h2 > li {
+  margin-bottom: 10px;
+}
